@@ -90,7 +90,7 @@ export const PLAYLIST_CATEGORIES = [
   { id: "nostalgic", label: "Nostalgic", fullName: "2000s Nostalgia", subtitle: "Unforgettable Childhood Tunes", count: ''' + str(len(categories.get('nostalgic', []))) + ''' },
   { id: "rajasthani", label: "Rajasthani", fullName: "Rajasthani Folk & Heritage", subtitle: "Desert Winds & Authentic Folk Melodies", count: ''' + str(len(categories.get('rajasthani', []))) + ''' },
   { id: "english", label: "English", fullName: "English Hits & Classics", subtitle: "Global Bangers & Roadtrip Anthems", count: ''' + str(len(categories.get('english', []))) + ''' },
-  { id: "hitlist", label: "Hitlist", fullName: "Top Hitlist", subtitle: "Chartbusters on the Highway", count: ''' + str(len(categories.get('hitlist', []))) + ''' },
+  { id: "hitlist", label: "Divine Whispers", fullName: "Divine Whispers", subtitle: "Sacred Melodies & Soulful Vibes", count: ''' + str(len(categories.get('hitlist', []))) + ''' },
   { id: "punjabi", label: "Punjabi", fullName: "Punjabi Bangers", subtitle: "High-energy Dhol & Highway Beats", count: ''' + str(len(categories.get('punjabi', []))) + ''' },
   { id: "haryanvi", label: "Haryanvi", fullName: "Haryanvi Hits", subtitle: "Desi Ragni & Bass Boosts", count: ''' + str(len(categories.get('haryanvi', []))) + ''' },
   { id: "pahadi", label: "Pahadi", fullName: "Pahadi Safar", subtitle: "Mountain Melodies & Folk Acoustic", count: ''' + str(len(categories.get('pahadi', []))) + ''' },

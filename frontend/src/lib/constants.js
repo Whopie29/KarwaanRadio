@@ -85,7 +85,7 @@ export const PLAYLIST_CATEGORIES = [
   { id: "nostalgic", label: "Nostalgic", fullName: "2000s Nostalgia", subtitle: "Unforgettable Childhood Tunes", count: 164 },
   { id: "rajasthani", label: "Rajasthani", fullName: "Rajasthani Folk & Heritage", subtitle: "Desert Winds & Authentic Folk Melodies", count: 24 },
   { id: "english", label: "English", fullName: "English Hits & Classics", subtitle: "Global Bangers & Roadtrip Anthems", count: 86 },
-  { id: "hitlist", label: "Hitlist", fullName: "Top Hitlist", subtitle: "Chartbusters on the Highway", count: 0 },
+  { id: "hitlist", label: "Divine Whispers", fullName: "Divine Whispers", subtitle: "Sacred Melodies & Soulful Vibes", count: 10 },
   { id: "punjabi", label: "Punjabi", fullName: "Punjabi Bangers", subtitle: "High-energy Dhol & Highway Beats", count: 98 },
   { id: "haryanvi", label: "Haryanvi", fullName: "Haryanvi Hits", subtitle: "Desi Ragni & Bass Boosts", count: 66 },
   { id: "pahadi", label: "Pahadi", fullName: "Pahadi Safar", subtitle: "Mountain Melodies & Folk Acoustic", count: 26 },
@@ -4591,7 +4591,98 @@ export const TRACK_CATEGORIES = {
       "category": "english"
     }
   ],
-  "hitlist": [],
+  "hitlist": [
+    {
+      "id": "hit_1",
+      "title": "Aavagaman",
+      "artist": "Sadhu Tiwari",
+      "album": "Hanuman Ansh",
+      "duration": 226,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Hitlist/hit_001.mp3",
+      "category": "hitlist"
+    },
+    {
+      "id": "hit_2",
+      "title": "Anth Mein Aarambh",
+      "artist": "Sonu Nigam, Prasad S, Irshad Kamil",
+      "album": "Krishnavataram - Part 1: The Heart (Hridayam)",
+      "duration": 305,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Hitlist/hit_002.mp3",
+      "category": "hitlist"
+    },
+    {
+      "id": "hit_3",
+      "title": "Bajrang Baanka",
+      "artist": "Sadhu Tiwari",
+      "album": "Unknown Album",
+      "duration": 237,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Hitlist/hit_003.mp3",
+      "category": "hitlist"
+    },
+    {
+      "id": "hit_4",
+      "title": "Krishna Govinda",
+      "artist": "Sunidhi Chauhan, Prasad S, Irshad Kamil",
+      "album": "Krishnavataram - Part 1: The Heart (Hridayam)",
+      "duration": 225,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Hitlist/hit_004.mp3",
+      "category": "hitlist"
+    },
+    {
+      "id": "hit_5",
+      "title": "Kunj Bihari",
+      "artist": "Prasad S, Irshad Kamil",
+      "album": "Krishnavataram - Part 1: The Heart (Hridayam)",
+      "duration": 195,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Hitlist/hit_005.mp3",
+      "category": "hitlist"
+    },
+    {
+      "id": "hit_6",
+      "title": "Parvati",
+      "artist": "Sadhu Tiwari",
+      "album": "Hanuman Ansh",
+      "duration": 284,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Hitlist/hit_006.mp3",
+      "category": "hitlist"
+    },
+    {
+      "id": "hit_7",
+      "title": "Prem Ki Leela",
+      "artist": "Shreya Ghoshal, Javed Ali, Suvarna Tiwari, Prasad S, Swaradish Dr Bharat Balvalli",
+      "album": "Prem Ki Leela (From \"Krishnavataram - Part 1: The Heart (Hridayam)\")",
+      "duration": 281,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Hitlist/hit_007.mp3",
+      "category": "hitlist"
+    },
+    {
+      "id": "hit_8",
+      "title": "Ram Dhun",
+      "artist": "Mithoon",
+      "album": "Unknown Album",
+      "duration": 779,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Hitlist/hit_008.mp3",
+      "category": "hitlist"
+    },
+    {
+      "id": "hit_9",
+      "title": "Shyamal Sanware",
+      "artist": "Sonu Nigam, Neeti Mohan, Prasad S, Irshad Kamil",
+      "album": "Krishnavataram - Part 1: The Heart (Hridayam)",
+      "duration": 334,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Hitlist/hit_009.mp3",
+      "category": "hitlist"
+    },
+    {
+      "id": "hit_10",
+      "title": "Tum Prem Ho Reprise",
+      "artist": "Mohit Lalwani",
+      "album": "Tum Prem Ho Reprise",
+      "duration": 288,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Hitlist/hit_010.mp3",
+      "category": "hitlist"
+    }
+  ],
   "punjabi": [
     {
       "id": "punjabi_1",
