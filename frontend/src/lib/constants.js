@@ -82,13 +82,13 @@ export const TIMES = {
 
 export const PLAYLIST_CATEGORIES = [
   { id: "90s", label: "90s", fullName: "90s Bollywood Classics", subtitle: "Golden Era Cassettes & Melodies", count: 225 },
-  { id: "nostalgic", label: "Nostalgic", fullName: "2000s Nostalgia", subtitle: "Unforgettable Childhood Tunes", count: 164 },
+  { id: "nostalgic", label: "Nostalgic", fullName: "2000s Nostalgia", subtitle: "Unforgettable Childhood Tunes", count: 200 },
   { id: "rajasthani", label: "Rajasthani", fullName: "Rajasthani Folk & Heritage", subtitle: "Desert Winds & Authentic Folk Melodies", count: 24 },
   { id: "english", label: "English", fullName: "English Hits & Classics", subtitle: "Global Bangers & Roadtrip Anthems", count: 86 },
   { id: "hitlist", label: "Divine Whispers", fullName: "Divine Whispers", subtitle: "Sacred Melodies & Soulful Vibes", count: 10 },
   { id: "punjabi", label: "Punjabi", fullName: "Punjabi Bangers", subtitle: "High-energy Dhol & Highway Beats", count: 98 },
   { id: "haryanvi", label: "Haryanvi", fullName: "Haryanvi Hits", subtitle: "Desi Ragni & Bass Boosts", count: 66 },
-  { id: "pahadi", label: "Pahadi", fullName: "Pahadi Safar", subtitle: "Mountain Melodies & Folk Acoustic", count: 26 },
+  { id: "pahadi", label: "Pahadi", fullName: "Pahadi Safar", subtitle: "Mountain Melodies & Folk Acoustic", count: 27 },
 ];
 
 export const TRACK_CATEGORIES = {
@@ -3595,6 +3595,330 @@ export const TRACK_CATEGORIES = {
       "duration": 283,
       "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_164.mp3",
       "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_165",
+      "title": "Dil Kyun Yeh Mera",
+      "artist": "KK",
+      "album": "Kites",
+      "duration": 332,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_165.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_166",
+      "title": "Haan Tu Hain",
+      "artist": "Pritam, KK, Sayeed Quadri",
+      "album": "Jannat",
+      "duration": 286,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_166.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_167",
+      "title": "Tujhe Sochta Hoon",
+      "artist": "Pritam, KK, Sayeed Quadri",
+      "album": "Jannat 2",
+      "duration": 315,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_167.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_168",
+      "title": "Tu Jo Mila",
+      "artist": "Pritam, KK, Kausar Munir",
+      "album": "Bajrangi Bhaijaan",
+      "duration": 153,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_168.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_169",
+      "title": "Jee Le Zaraa",
+      "artist": "Vishal Dadlani",
+      "album": "Vishal Dadlani All Time Hits",
+      "duration": 232,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_169.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_170",
+      "title": "Rabba Main Toh Mar Gaya Oye",
+      "artist": "Pritam, Shahid Mallya",
+      "album": "Mausam",
+      "duration": 265,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_170.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_171",
+      "title": "Saathiya",
+      "artist": "A.R. Rahman, Sonu Nigam, Gulzar",
+      "album": "Saathiya",
+      "duration": 327,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_171.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_172",
+      "title": "Phir Mohabbat",
+      "artist": "Mohammed Irfan, Arijit Singh, Saim Bhat, Mithoon, Sayeed Quadri",
+      "album": "Murder 2",
+      "duration": 348,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_172.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_173",
+      "title": "Bhagwaan Hai Kahan Re Tu",
+      "artist": "Sonu Nigam, Shantanu Moitra, Swanand Kirkire",
+      "album": "Pk",
+      "duration": 276,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_173.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_174",
+      "title": "Senorita",
+      "artist": "Farhan Akhtar, Hrithik Roshan, Abhay Deol, Maria Del Mar Fernandez",
+      "album": "Zindagi Na Milegi Dobara",
+      "duration": 248,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_174.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_175",
+      "title": "Naach Meri Jaan",
+      "artist": "Pritam, Kamaal Khan, Nakash Aziz, Dev Negi, TUSHAR JOSHI",
+      "album": "Tubelight",
+      "duration": 292,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_175.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_176",
+      "title": "Vele",
+      "artist": "Vishal-Shekhar, Vishal Dadlani, Shekhar Ravjiani",
+      "album": "Student of the Year",
+      "duration": 284,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_176.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_177",
+      "title": "Main Agar",
+      "artist": "Pritam, Atif Aslam",
+      "album": "Tubelight",
+      "duration": 281,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_177.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_178",
+      "title": "Dil Kaa Jo Haal Hai",
+      "artist": "Abhijeet, Shreya Ghoshal",
+      "album": "Besharam",
+      "duration": 321,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_178.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_179",
+      "title": "Zindagi Kuch Toh Bata",
+      "artist": "Pritam, Rahat Fateh Ali Khan, Rekha Bhardwaj, Neelesh Misra",
+      "album": "Bajrangi Bhaijaan",
+      "duration": 258,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_179.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_180",
+      "title": "O Maahi",
+      "artist": "Pritam, Arijit Singh, Irshad Kamil",
+      "album": "O Maahi (From \"Dunki\")",
+      "duration": 246,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_180.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_181",
+      "title": "Jiya Re",
+      "artist": "A.R. Rahman, Neeti Mohan, Gulzar",
+      "album": "Jab Tak Hai Jaan",
+      "duration": 235,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_181.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_182",
+      "title": "Zaalima",
+      "artist": "Arijit Singh, Harshdeep Kaur",
+      "album": "Raees",
+      "duration": 306,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_182.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_183",
+      "title": "Hawayein",
+      "artist": "Pritam, Arijit Singh",
+      "album": "Hawayein (From \"Jab Harry Met Sejal\")",
+      "duration": 291,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_183.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_184",
+      "title": "Apna Bana Le",
+      "artist": "Sachin-Jigar, Arijit Singh, Amitabh Bhattacharya",
+      "album": "Bhediya",
+      "duration": 204,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_184.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_185",
+      "title": "Hai Rey",
+      "artist": "Babul Supriyo, Sadhana Sargam",
+      "album": "Kucch To Hai",
+      "duration": 412,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_185.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_186",
+      "title": "Yeh Mera Dil",
+      "artist": "Shaan, Sunidhi Chauhan",
+      "album": "Kucch To Hai",
+      "duration": 293,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_186.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_187",
+      "title": "Hone Laga",
+      "artist": "Priya Bhatacharya, Sunidhi Chauhan",
+      "album": "Kucch To Hai",
+      "duration": 401,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_187.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_188",
+      "title": "Kya Pyar Karoge Mujhse (Female Version)",
+      "artist": "Alka Yagnik",
+      "album": "Kucch To Hai",
+      "duration": 219,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_188.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_189",
+      "title": "Sahiba",
+      "artist": "Aditya Rikhari",
+      "album": "Sahiba",
+      "duration": 183,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_189.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_190",
+      "title": "Aisa Kyon Hota Hai",
+      "artist": "KK, Sunidhi Chauhan",
+      "album": "Kucch To Hai",
+      "duration": 439,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_190.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_191",
+      "title": "Ding Dong",
+      "artist": "KK, Sunidhi Chauhan",
+      "album": "Kucch To Hai",
+      "duration": 344,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_191.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_192",
+      "title": "Pyar Pyar Mein",
+      "artist": "Sonu Nigam",
+      "album": "Kucch To Hai",
+      "duration": 385,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_192.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_193",
+      "title": "Kya Pyar Karoge Mujhse",
+      "artist": "Sonu Nigam, Alka Yagnik",
+      "album": "Kucch To Hai",
+      "duration": 477,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_193.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_194",
+      "title": "Soja Zara",
+      "artist": "Madhushree, Manoj Muntashir",
+      "album": "Bahubali- The Conclusion",
+      "duration": 219,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_194.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_195",
+      "title": "Mitwa",
+      "artist": "A.R. Rahman, Alka Yagnik, Udit Narayan, Sukhwinder Singh, Srinivas",
+      "album": "Lagaan",
+      "duration": 404,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_195.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_196",
+      "title": "O Paalanhaare",
+      "artist": "Lata Mangeshkar, Udit Narayan, A.R. Rahman",
+      "album": "Lagaan",
+      "duration": 304,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_196.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_197",
+      "title": "Sooraj Dooba Hain",
+      "artist": "Amaal Mallik, Arijit Singh, Aditi Singh Sharma, Kumaar",
+      "album": "Roy",
+      "duration": 247,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_197.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_198",
+      "title": "Teri Meri Kahaani",
+      "artist": "Palak Muchhal, Manoj Yadav, Arijit Singh",
+      "album": "Best Of Akshay Kumar",
+      "duration": 246,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_198.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_199",
+      "title": "Alcoholic",
+      "artist": "Yo Yo Honey Singh",
+      "album": "Best Of Akshay Kumar",
+      "duration": 194,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_199.mp3",
+      "category": "nostalgic"
+    },
+    {
+      "id": "nostalgic_200",
+      "title": "Dhal Jaun Main",
+      "artist": "Jubin Nautiyal, Aakanksha Sharma, Manoj Muntashir",
+      "album": "Best Of Akshay Kumar",
+      "duration": 289,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Nostalgic/nostalgic_200.mp3",
+      "category": "nostalgic"
     }
   ],
   "rajasthani": [
@@ -6396,6 +6720,15 @@ export const TRACK_CATEGORIES = {
       "album": "Ki Bhalo Tero Mann",
       "duration": 330,
       "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_26.mp3",
+      "category": "pahadi"
+    },
+    {
+      "id": "pahadi_27",
+      "title": "Rupsa Ra Moti",
+      "artist": "digV, Sparsh Agrawal",
+      "album": "Rupsa Ra Moti",
+      "duration": 190,
+      "url": "https://pub-26b22cb6c38140bf8acff92193e34581.r2.dev/old_bangers/Pahadi/pahadi_027.mp3",
       "category": "pahadi"
     }
   ]

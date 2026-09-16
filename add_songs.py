@@ -86,6 +86,7 @@ def resolve_category(cat_key):
 def clean_artist(artist, default_artist):
     if not artist: return default_artist
     artist = artist.replace('\ufffd', '-')
+    artist = artist.replace('/', ', ')
     for pattern in [r',?\s*Super Cassettes Industries.*', r',?\s*Tips Music.*',
                     r',?\s*Venus Worldwide.*', r',?\s*T-Series.*',
                     r',?\s*Zee Music.*', r',?\s*Sony Music.*']:
@@ -104,6 +105,7 @@ def clean_album(album, default_album):
 
 def clean_title(title, filename):
     if not title: title = filename
+    title = re.sub(r'^\d+\.\s*', '', title)
     title = title.replace('\ufffd', '-')
     title = title.replace('_spotdown.org.mp3', '').replace('_spotdown.org', '').replace('.mp3', '')
     for pattern in [r'\s*-\s*From\s+["\'][^"\']+["\']', r'\s*\(From\s+["\'][^"\']+["\']?\)',
@@ -161,6 +163,10 @@ def add_songs_for_category(cat_key, all_tracks, r2_keys):
         )
         for t in existing_tracks
     }
+    seen_titles = {
+        re.sub(r'[^a-zA-Z0-9]', '', t.get("title", "")).lower()
+        for t in existing_tracks
+    }
 
     # Next index starts after last existing track
     next_idx = len(existing_tracks) + 1
@@ -191,16 +197,17 @@ def add_songs_for_category(cat_key, all_tracks, r2_keys):
         artist = clean_artist(artist, default_artist)
         album  = clean_album(album, default_album)
 
-        # Skip if both title and artist already exist
+        # Skip if both title and artist already exist, or title already exists in category
         norm_title = re.sub(r'[^a-zA-Z0-9]', '', title).lower()
         norm_artist = re.sub(r'[^a-zA-Z0-9]', '', artist).lower()
         track_key = (norm_title, norm_artist)
 
-        if track_key in seen_tracks:
+        if track_key in seen_tracks or norm_title in seen_titles:
             print(f"  Skipping duplicate track: {title} - {artist}")
             skipped_dup += 1
             continue
         seen_tracks.add(track_key)
+        seen_titles.add(norm_title)
 
         # Assign cloud filename
         safe_name = f"{prefix}_{next_idx:03d}.mp3"
